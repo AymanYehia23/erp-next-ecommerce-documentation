@@ -7,35 +7,35 @@ export default defineConfig({
   appearance: true,
   lastUpdated: true,
   themeConfig: {
-    siteTitle: 'Mobile App System Config Guide',
+    siteTitle: 'Mobile Config Guide',
     nav: [
-      { text: 'Guide', link: '/' },
-      { text: 'Troubleshooting', link: '/reference/troubleshooting-search-index' },
-      { text: 'Permissions', link: '/reference/role-permissions-reference' }
+      { text: 'Home', link: '/' },
+      { text: 'Fixes', link: '/reference/troubleshooting-search-index' },
+      { text: 'Roles', link: '/reference/role-permissions-reference' }
     ],
     sidebar: [
       {
-        text: 'Getting Started & Authentication',
+        text: 'Getting Started & Auth',
         collapsed: false,
         items: [
-          { text: 'Initial App Launch & Settings Access', link: '/getting-started/initial-api-authentication-setup' },
-          { text: 'Login Setup', link: '/getting-started/login-setup' },
-          { text: 'Sign-Up Territory Setup', link: '/getting-started/sign-up-territory-setup' }
+          { text: 'API & Settings Access', link: '/getting-started/initial-api-authentication-setup' },
+          { text: 'Login', link: '/getting-started/login-setup' },
+          { text: 'Sign-Up Territories', link: '/getting-started/sign-up-territory-setup' }
         ]
       },
       {
         text: 'Products & Pricing',
         collapsed: false,
         items: [
-          { text: 'Catalog, Categories, Pricing & Stock', link: '/products-pricing/product-catalog-pricing-stock-setup' },
-          { text: 'Home Screen Top Sold Items & Brands', link: '/products-pricing/home-screen-top-sold-items-and-brands-setup' }
+          { text: 'Catalog, Pricing & Stock', link: '/products-pricing/product-catalog-pricing-stock-setup' },
+          { text: 'Top Sold Items & Brands', link: '/products-pricing/home-screen-top-sold-items-and-brands-setup' }
         ]
       },
       {
         text: 'Offers & Loyalty',
         collapsed: false,
         items: [
-          { text: 'Promotional Offers & Mobile Banners', link: '/offers-loyalty/promotional-offers-mobile-banners-setup' },
+          { text: 'Offers & Banners', link: '/offers-loyalty/promotional-offers-mobile-banners-setup' },
           { text: 'Points, Coupons & Loyalty Program', link: '/offers-loyalty/points-coupons-and-loyalty-program-setup' }
         ]
       },
@@ -43,15 +43,15 @@ export default defineConfig({
         text: 'Orders',
         collapsed: false,
         items: [
-          { text: 'Order Placement & Minimum Requirements', link: '/orders/order-placement-and-minimum-order-requirements-setup' }
+          { text: 'Checkout Requirements', link: '/orders/order-placement-and-minimum-order-requirements-setup' }
         ]
       },
       {
         text: 'Reference',
         collapsed: false,
         items: [
-          { text: 'Troubleshooting Search Index', link: '/reference/troubleshooting-search-index' },
-          { text: 'Role Permissions Reference', link: '/reference/role-permissions-reference' }
+          { text: 'Troubleshooting Index', link: '/reference/troubleshooting-search-index' },
+          { text: 'Role Permissions', link: '/reference/role-permissions-reference' }
         ]
       }
     ],
@@ -71,6 +71,13 @@ export default defineConfig({
       level: [2, 3],
       label: 'On this page'
     },
+    docFooter: {
+      prev: 'Previous guide',
+      next: 'Next guide'
+    },
+    darkModeSwitchLabel: 'Theme',
+    sidebarMenuLabel: 'Menu',
+    returnToTopLabel: 'Back to top',
     footer: {
       message: 'ERPNext mobile backend configuration guide for QA and Technical Support.'
     }

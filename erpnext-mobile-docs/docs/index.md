@@ -1,29 +1,41 @@
 ---
-outline: deep
+layout: home
+
+hero:
+  name: Mobile App System Config Guide
+  text: ERPNext backend setup and troubleshooting
+  tagline: A fast reference for QA and Technical Support teams validating mobile app system configuration.
+  actions:
+    - theme: brand
+      text: Start setup
+      link: /getting-started/initial-api-authentication-setup
+    - theme: alt
+      text: Search fixes
+      link: /reference/troubleshooting-search-index
+
+features:
+  - title: Getting Started & Auth
+    details: Configure API access, login, sign-up territories, and activation requirements.
+    link: /getting-started/initial-api-authentication-setup
+    linkText: Open setup basics
+  - title: Products & Pricing
+    details: Validate category visibility, customer pricing, warehouse stock, most-sold items, and brands.
+    link: /products-pricing/product-catalog-pricing-stock-setup
+    linkText: Review catalog setup
+  - title: Offers & Loyalty
+    details: Configure banners, promotional offers, loyalty points, coupons, and checkout rewards.
+    link: /offers-loyalty/promotional-offers-mobile-banners-setup
+    linkText: Review offers
+  - title: Orders
+    details: Test order placement, minimum order limits, Sales Order creation, and checkout blockers.
+    link: /orders/order-placement-and-minimum-order-requirements-setup
+    linkText: Review checkout
+  - title: Troubleshooting
+    details: Search common support errors like 403 Forbidden, firebase_admin, and Missing Required Fields.
+    link: /reference/troubleshooting-search-index
+    linkText: Open fixes
+  - title: Role Permissions
+    details: Verify Guest and Customer role permissions needed by the mobile app.
+    link: /reference/role-permissions-reference
+    linkText: Open permissions
 ---
-
-# Mobile App System Config Guide
-
-ERPNext backend configuration and troubleshooting guides for the mobile app QA and Technical Support teams.
-
-## Start here
-
-Use these guides in order when validating a new ERPNext backend instance for the mobile app:
-
-1. Configure initial API authentication and settings access.
-2. Validate login and sign-up territory setup.
-3. Confirm catalog, pricing, stock, offers, and loyalty setup.
-4. Test order placement and minimum order requirements.
-5. Use the role permissions reference to verify access rules.
-
-## Documentation sections
-
-- **Getting Started & Authentication**: app launch, API keys, login, sign-up, territory visibility, and account activation.
-- **Products & Pricing**: categories, item visibility, customer price lists, warehouse stock, home screen most-sold items, and brands.
-- **Offers & Loyalty**: promotional banners, discount offers, free-item offers, points, coupons, and loyalty program setup.
-- **Orders**: checkout, sales orders, minimum order amount, and order troubleshooting.
-- **Reference**: permissions and quick troubleshooting search terms.
-
-## Common support searches
-
-The local search bar indexes this site, including common support phrases such as `403 Forbidden`, `permission error`, `firebase_admin`, `Missing Required Fields`, empty territory dropdowns, missing products, missing banners, and invalid coupons.
