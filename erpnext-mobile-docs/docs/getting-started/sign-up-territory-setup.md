@@ -80,7 +80,7 @@ The user must be linked to a **Customer** record before they can log in. You can
 2. Find the pending order from the new user.
 3. Use the page controls to link the user to the customer record.
 
-> For more details on login-related setup and troubleshooting, see the **Login Setup** guide (`02-login-setup.md`).
+> For more details on login-related setup and troubleshooting, see the [Login Setup guide](./login-setup.html).
 
 ---
 
