@@ -10,9 +10,9 @@ Use this page as a quick search bridge for common QA and Technical Support error
 
 Related guides:
 
-- [Initial App Launch and Settings Access Setup](../getting-started/initial-api-authentication-setup)
-- [Login Setup](../getting-started/login-setup)
-- [Mobile App Role Permissions Reference](./role-permissions-reference)
+- [Initial App Launch and Settings Access Setup](../getting-started/initial-api-authentication-setup.html)
+- [Login Setup](../getting-started/login-setup.html)
+- [Mobile App Role Permissions Reference](./role-permissions-reference.html)
 
 ## Login and sign-up
 
@@ -23,8 +23,8 @@ Related guides:
 
 Related guides:
 
-- [Login Setup](../getting-started/login-setup)
-- [Sign-Up Territory Setup Guide](../getting-started/sign-up-territory-setup)
+- [Login Setup](../getting-started/login-setup.html)
+- [Sign-Up Territory Setup Guide](../getting-started/sign-up-territory-setup.html)
 
 ## Catalog, offers, and orders
 
@@ -36,7 +36,7 @@ Related guides:
 
 Related guides:
 
-- [Product Catalog, Categories, Pricing, and Stock Availability Setup](../products-pricing/product-catalog-pricing-stock-setup)
-- [Promotional Offers and Mobile Banners Setup](../offers-loyalty/promotional-offers-mobile-banners-setup)
-- [Points, Coupons, and Loyalty Program Setup](../offers-loyalty/points-coupons-and-loyalty-program-setup)
-- [Order Placement and Minimum Order Requirements Setup](../orders/order-placement-and-minimum-order-requirements-setup)
+- [Product Catalog, Categories, Pricing, and Stock Availability Setup](../products-pricing/product-catalog-pricing-stock-setup.html)
+- [Promotional Offers and Mobile Banners Setup](../offers-loyalty/promotional-offers-mobile-banners-setup.html)
+- [Points, Coupons, and Loyalty Program Setup](../offers-loyalty/points-coupons-and-loyalty-program-setup.html)
+- [Order Placement and Minimum Order Requirements Setup](../orders/order-placement-and-minimum-order-requirements-setup.html)
