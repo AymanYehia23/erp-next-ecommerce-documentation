@@ -1,3 +1,10 @@
+---
+prev: false
+next:
+  text: Login
+  link: /getting-started/login-setup.html
+---
+
 # Initial App Launch and Settings Access Setup
 
 ## Overview
